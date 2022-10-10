@@ -1,0 +1,9 @@
+id
+category_id
+brand_id
+name
+image
+description
+price
+qty
+meta_keywords

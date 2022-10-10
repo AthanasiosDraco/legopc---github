@@ -1,0 +1,110 @@
+html {
+	font-family: 'Poppins', sans-serif;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+
+
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover, a:focus, a:active {
+	color: inherit;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+a {
+	text-decoration:none;
+}
+a:active,
+a:hover {
+	outline: 0;
+	text-decoration:none;
+}
+
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #424646;
+    font-family: 'Poppins', sans-serif;
+	font-weight:400;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	margin: 0;
+}
+p {
+	color:#757575;
+	margin: 0;
+	line-height:24px;
+}
+a,button,input{
+	font-weight:400;
+}
+
+
+.section {
+	padding: 100px 0;
+	position: relative;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 0 215px;
+}
+.section-title h2 {
+	font-size: 30px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+	position: relative;
+	color: #2c2d3f;
+	font-weight: 700;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+.section-title h2::before {
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 50px;
+	background: #c60c00;
+	left: 50%;
+	bottom: 0;
+	margin-left: -25px;
+}
+.section-title p {
+	font-size: 14px;
+	color: #666;
+}
+
